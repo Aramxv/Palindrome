@@ -20,7 +20,8 @@
         } 
     }  
 
-    $inputStringHere = "GROWDW";
+    // Change the Input Word here!
+    $inputStringHere = "MADAM";
 
     if (CheckPalindrome($inputStringHere)) {
         echo "<h1 style='text-align:center; color:green;'>$inputStringHere<br>This Word is a Palindrome!</h1>";
