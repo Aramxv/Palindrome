@@ -20,12 +20,12 @@
         } 
     }  
 
-    $inputStringHere = "DAD";
+    $inputStringHere = "GROWDW";
 
     if (CheckPalindrome($inputStringHere)) {
-        echo "<h1 style='text-align:center; color:blue;'>$inputStringHere - This Word is a Palindrome!</h1>";
+        echo "<h1 style='text-align:center; color:green;'>$inputStringHere<br>This Word is a Palindrome!</h1>";
     } else {
-        echo "<h1 style='text-align:center; color:red;'>$inputStringHere - This Word is NOT a Palindrome!</h1>";
+        echo "<h1 style='text-align:center; color:red;'>$inputStringHere<br>This Word is NOT a Palindrome!</h1>";
     }
 
 ?>
